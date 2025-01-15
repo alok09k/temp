@@ -1,0 +1,56 @@
+/* Base styles */
+.title {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: 600;
+    text-transform: uppercase;
+    margin: 50px 0 20px;
+}
+.title h2 {
+    font-size: 32px;
+    color: #3e62be;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .title {
+        font-size: 14px;
+        margin: 40px 0 18px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 13px;
+        margin: 30px 0 16px;
+    }
+    .title h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 12px;
+        margin: 20px 0 14px;
+    }
+    .title h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 11px;
+        margin: 15px 0 12px;
+    }
+    .title h2 {
+        font-size: 24px;
+    }
+}

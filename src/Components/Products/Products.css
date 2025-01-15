@@ -1,0 +1,24 @@
+.product
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(221, 221, 221, 0.767);
+    padding-top: 30px;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 40px 16px;
+}
+.product-heading
+{
+    font-size: 40px;
+}
+.alt-image
+{
+    width: 400px;
+    padding-top: 50px;
+}

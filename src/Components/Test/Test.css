@@ -1,0 +1,174 @@
+.home
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.home-1
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.home-1-left img
+{
+    width: 60%;
+}
+.home-1-right 
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-item
+{
+    padding-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.active
+{
+    transition: all;
+    color: #4167c7;
+}
+.home-2
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.home-2-left
+{
+    width: 40%;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.home-2-left h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home-2-left p {
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+  margin-bottom: 10px;
+}
+
+.home-2-left button {
+  padding: 11px 18px;
+  color: white;
+  background-color: #4e6fc2;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 25%;
+}
+
+.home-2-left button::before {
+  content: "";
+  background-color: #1f1f1f; /* You can change this color to match your desired hover effect */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.8s;
+  z-index: -1;
+}
+
+.home-2-left button:hover::before {
+  transform: scaleX(1);
+}
+
+hero-button:hover {
+  color: #fff; /* Change text color if needed when hovered */
+}
+
+.hero-button
+{
+  text-decoration: none;
+}
+.seller
+{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid #4e6fc2;
+    padding: 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.seller:hover
+{
+    background-color: #5875c013;
+}
+
+  
+  .user-image {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+.user
+{
+  display: flex;
+  gap: 4px;
+  border: 1px solid #4e6fc2;
+  padding: 5px 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+.user p
+{
+  font-size: 12px;
+}
+.navbar_right_accountmenu {
+    position: absolute;
+    background-color: white;
+    right: 50px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  
+  @media (max-width: 640px) {
+    .navbar_right_accountmenu {
+      right: 20px;
+    }
+  }
+  
+  .navbar_right_accountmenu a {
+    width: 100%;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #4e6fc2;
+    font-weight: 700;
+  }
+  
+  .navbar_right_accountmenu a:hover {
+    color: pinkred;
+    background-color: rgba(217, 213, 213, 0.2);
+  }
